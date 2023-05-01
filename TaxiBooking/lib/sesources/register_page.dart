@@ -160,7 +160,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                       style: BorderStyle.none,
                                     )
                                 ),
-                                prefixIcon: Icon(Icons.person, color: darkTheme ? Colors.amber.shade400 : Colors.grey,),
+                                prefixIcon: Icon(Icons.email, color: darkTheme ? Colors.amber.shade400 : Colors.grey,),
                               ),
                               autovalidateMode: AutovalidateMode.onUserInteraction,
                               validator: (text) {
@@ -229,7 +229,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                       style: BorderStyle.none,
                                     )
                                 ),
-                                prefixIcon: Icon(Icons.person, color: darkTheme ? Colors.amber.shade400 : Colors.grey,),
+                                prefixIcon: Icon(Icons.location_on, color: darkTheme ? Colors.amber.shade400 : Colors.grey,),
                               ),
                               autovalidateMode: AutovalidateMode.onUserInteraction,
                               validator: (text) {
@@ -269,7 +269,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                       style: BorderStyle.none,
                                     )
                                 ),
-                                prefixIcon: Icon(Icons.person, color: darkTheme ? Colors.amber.shade400 : Colors.grey,),
+                                prefixIcon: Icon(Icons.lock, color: darkTheme ? Colors.amber.shade400 : Colors.grey,),
                                 suffixIcon: IconButton(
                                   icon: Icon(
                                     _passwordVisible ? Icons.visibility : Icons.visibility_off,
@@ -321,7 +321,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                         style: BorderStyle.none,
                                       )
                                   ),
-                                  prefixIcon: Icon(Icons.person, color: darkTheme ? Colors.amber.shade400 : Colors.grey,),
+                                  prefixIcon: Icon(Icons.lock, color: darkTheme ? Colors.amber.shade400 : Colors.grey,),
                                   suffixIcon: IconButton(
                                     icon: Icon(
                                       _passwordVisible ? Icons.visibility : Icons.visibility_off,

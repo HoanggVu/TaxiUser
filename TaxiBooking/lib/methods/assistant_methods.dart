@@ -52,7 +52,7 @@ class AssistantMethods {
       'Authorization': cloudMessagingServerToken,
     };
 
-    Map bodyNotifacation ={
+    Map bodyNotification ={
       "body":"Destination Address: \n$destinationAddress.",
       "title":"New Trip Request",
     };
@@ -65,7 +65,7 @@ class AssistantMethods {
     };
 
     Map officialNotificationFormat = {
-      "notification": bodyNotifacation,
+      "notification": bodyNotification,
       "data": dataMap,
       "priority": "high",
       'to': deviceRegistrationToken,

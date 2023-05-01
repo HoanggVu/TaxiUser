@@ -64,7 +64,7 @@ class _MainPageState extends State<MainPage> {
   String userName = "";
   String userEmail = "";
   String selectedVehicleType = "";
-  String driverRideStatus = "Driver is coming";
+  String driverRideStatus = "Tài Xế Đang Đến";
   StreamSubscription<DatabaseEvent>? stripRidesRequestInfoStreamSubscription;
   List<ActiveNearByAvailableDrivers>? onlineNearByAvailableDriversList = [];
   String userRideRequestStatus = "";
@@ -99,6 +99,8 @@ class _MainPageState extends State<MainPage> {
       "userName": userModelCurrentInfo!.name,
       "userPhone": userModelCurrentInfo!.phone,
       "userAddress": userModelCurrentInfo!.address,
+      "originAddress": "566 Núi Thành",
+      "destination": "91 Nguyễn Thiện Kế",
       "driverId": "waiting",
     };
 
